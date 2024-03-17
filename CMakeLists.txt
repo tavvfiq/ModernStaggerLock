@@ -15,6 +15,7 @@ project(
 	LANGUAGES CXX
 )
 set(ENABLE_SKYRIM_VR OFF)
+set(BUILD_TESTS OFF)
 
 # Include SKSEPlugin.cmake from the same directory
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
